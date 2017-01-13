@@ -1,0 +1,17 @@
+{
+  "name": "ideationnet/bernard-container-router",
+  "type": "library",
+  "description": "A container-interop compatible router for Bernard",
+  "keywords": ["bernard", "container"],
+  "homepage": "https://github.com/ideationnet/bernard-container-router",
+  "license": "MIT",
+  "require": {
+    "container-interop/container-interop": "~1.0",
+    "bernard/bernard": "^0.12.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bernard\\ContainerInterop\\": "src"
+    }
+  }
+}
